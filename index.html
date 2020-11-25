@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="script.js"></script>
+	<title>HAPPY BIRTHDAY MOM</title>
+</head>
+<body>
+	<audio src="birthday_song.mp3" id="my_audio" loop="loop"></audio>
+	<div id="first-screen">
+		<p class="wishes">JOYEUX<br>ANNIVERSAIRE<br>MAMAN!</p>
+		<img src="fireworks_3.gif" alt="fireworks" class="fire gif-1">
+		<img src="fireworks_2.gif" alt="fireworks" class="fire gif-2">
+		<img src="fireworks_1.gif" alt="fireworks" class="fire gif-3">
+	</div>
+	<div id="closed-book" style="display: none;">
+		<p id="book-cover" style="display: none;">THE<br>QUEEN'S<br>TALE<br>(sound on)</p>
+		<img src="closed-book.png" alt="closed-book" class="book closed" style="width: 768px; height: 480px;">
+	</div>
+	<div id="book-gif" style="display: none;">
+		<img src="book_opening.gif" alt="book-opening" class="book opening" style="width: 768px; height: 480px;">
+	</div>
+	<div id="open-book" style="display: none;">
+		<img src="open-book.png" alt="open-book" class="book open" style="width: 768px; height: 480px;">
+	</div>
+	<div id="book-img" style="display: none;">
+		<img src="birthday-gift-2.png" alt="birthday-gift" class="book img" style="width: 485px; height: 372px;">
+	</div>
+	<div id="book-tale" style="display: none;">
+		<p id="book-cover tale">In a land far, far away, lives a generous Queen. She is generous to her family, her friends, and even to passersby, upon whom she bestows her smile. So generous is she, that her grace extends over to orphaned children and the unfortunate alike. And though the Queen may endure trials, her heart remains pure, and her generosity unchanged. So generous is the Queen, that the stars and constellations are in awe at the brightness of her heart. And every year, on the 25th day of November, they halt their course across the Universe, and extend their gaze upon the Earth, asking their Creator to give many more years to the generous Queen. And so the generous Queen humbly continues, unaware that even the stars and constellations supplicate God to let her shine as long and as bright as they do.</p>
+	</div>
+
+<!-- <script>
+$(function() {
+    $("#open-book").delay(3000).fadeIn();
+});
+</script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+	font-family: 'Pacifico', cursive;
+}
+
+body {
+	background-color: #329B9C;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.wishes {
+	position: fixed;
+  	top: 40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	/*position: absolute;
+	top: 5%;
+	left: 23%;*/
+	font-size: 70px;
+	text-align: center;
+	z-index: 1;
+	background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.fire {
+	position: absolute;
+	z-index: 0;
+	opacity: 40%;
+}
+
+.gif-1 {
+	top: 20%;
+	left: 25%;
+}
+
+.gif-2 {
+	top: 20%;
+	left: 32%;
+}
+
+.gif-3 {
+	top: 20%;
+	left: 40%;
+}
+
+.book {
+	position: fixed;
+  	top: 50%;
+  	left: 45%;
+  	transform: translate(-50%, -50%);
+	z-index: 0;
+}
+
+#book-cover {
+	position: fixed;
+  	top: 38%;
+  	left: 60%;
+  	transform: translate(-50%, -50%);
+	z-index: 1;
+	font-size: 50px;
+	text-align: center;
+	color: #D5AA66;
+}
+
+#book-tale {
+	position: fixed;
+  	top: 50.9%;
+  	left: 58.8%;
+  	transform: translate(-50%, -50%);
+	width: 310px;
+	height: 400px;
+	font-size: 13px;
+	z-index: 1;
+}
+
+.img {
+	top: 46.5%;
+	left: 31.8%;
+	opacity: 60%;
+}
